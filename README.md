@@ -12,7 +12,7 @@ compile project(':stickyscrollviewlib')
 
 # How to use
 
-To use sticky scroll view in your application, you should add the element to you layout xml file, like this:
+To use sticky scroll view in your application, you should add this element to your layout *xml* file, like this:
 
 ```
 <ir.afshin.stickyscrollviewlib.StickyScrollView
@@ -22,7 +22,7 @@ To use sticky scroll view in your application, you should add the element to you
 </ir.afshin.stickyscrollviewlib.StickyScrollView>
 ```
 
-As like as simple scrollView, stiky scroll view takes one child to scroll:
+As like as simple scrollView, sticky scroll view takes one child to scroll. Here I added a `LinearLayout` as a child:
 
 ```
 <ir.afshin.stickyscrollviewlib.StickyScrollView
@@ -39,7 +39,7 @@ As like as simple scrollView, stiky scroll view takes one child to scroll:
         
 </ir.afshin.stickyscrollviewlib.StickyScrollView>
 ```
-At last if you desire to have an sticky part inside the linearLayout, you can do like this:
+At last if you desire to have a sticky part inside the LinearLayout, you can do like this:
 
 ```
 <ir.afshin.stickyscrollviewlib.StickyScrollView
@@ -53,7 +53,7 @@ At last if you desire to have an sticky part inside the linearLayout, you can do
             
             <!-- Some views here -->
             
-            <!-- This sticky header element will stick to top of scrollView while scrolling. JUST TRUST ME! :| -->
+            <!-- The following sticky header element will stick to top of scrollView while scrolling up. JUST TRUST ME! :| -->
             
             <ir.afshin.stickyscrollviewlib.StickyHeader
                 android:layout_width="match_parent"
@@ -67,7 +67,7 @@ At last if you desire to have an sticky part inside the linearLayout, you can do
             </ir.afshin.stickyscrollviewlib.StickyHeader>
             
             
-            <!-- Some views here -->
+            <!-- And some other views that must be under the sticky header view, here -->
             
         <LinearLayout>
         
