@@ -54,10 +54,56 @@
                 android:background="#000f0f"/>
 
 
-            <ir.afshin.stickyscrollviewlib.NestedRecyclerView
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:id="@+id/rv_items"/>
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#aff400"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#90aff4"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#aff400"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#90aff4"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#aff400"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#90aff4"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#aff400"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#000000"/>
+
+                </LinearLayout>
+
+            </ScrollView>
 
 
         </LinearLayout>
