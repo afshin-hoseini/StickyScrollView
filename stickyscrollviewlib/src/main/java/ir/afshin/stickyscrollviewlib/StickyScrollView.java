@@ -3,6 +3,7 @@ package ir.afshin.stickyscrollviewlib;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -99,6 +100,7 @@ public class StickyScrollView extends ScrollView {
         @Override
         public void onGlobalLayout() {
 
+            Log.e("GlobalLayout","Some logs");
             repositionStickyHeader();
         }
     };
